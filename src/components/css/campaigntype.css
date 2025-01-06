@@ -1,0 +1,28 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-toggle {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid green;
+  cursor: pointer;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: saddlebrown;
+  border: 1px solid saddlebrown;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: aqua;
+}
